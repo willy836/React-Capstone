@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
 *,
 *::before,
 *::after {
@@ -6,16 +8,55 @@
   box-sizing: border-box;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
+.about-company {
+  background: #457b9d;
+  color: #fff;
 }
 
-.icons {
+.nav {
+  padding: 20px;
+  background: #a9def9;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-icons {
   font-size: 20px;
 }
 
 .nav-icons-right {
   display: flex;
   gap: 8px;
+}
+
+.company-details {
+  margin: 0 5px;
+}
+
+.company-info {
+  font-family: "Lato", sans-serif;
+}
+
+.company-image {
+  width: 150px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.img {
+  width: 150px;
+  height: auto;
+}
+
+.data {
+  padding: 10px 5px;
+  background: #0077b6;
+  color: #fff;
+}
+
+.data:nth-child(even) {
+  background: #0096c7;
+  color: #fff;
 }

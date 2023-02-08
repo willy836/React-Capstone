@@ -10,11 +10,11 @@ const Company = (props) => {
   return (
     <div className="company-container">
       <Link to={`/company/${companySymbol}`}>
-        <BsChevronRight />
+        <BsChevronRight className="chev-right" />
       </Link>
       <div className="company">
-        <h4>{companySymbol}</h4>
-        <h3 className="company">{companyName}</h3>
+        <h5>{companySymbol}</h5>
+        <h3>{companyName}</h3>
         <p>{companyHeadquarter}</p>
       </div>
     </div>
