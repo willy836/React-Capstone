@@ -1,43 +1,42 @@
-/* eslint-disable */
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import axios from 'axios';
 
-const apikey = "b6fcb46946487d0314a7c68982f4501a";
+const apikey = 'b6fcb46946487d0314a7c68982f4501a';
 const URL = `https://financialmodelingprep.com/api/v3/nasdaq_constituent?apikey=${apikey}`;
 
 export const fetchCompaniesData = createAsyncThunk(
-  "companies/fetchCompaniesData",
+  'companies/fetchCompaniesData',
   async () => {
     const response = await axios.get(URL);
     if (response.data) {
       return response.data;
     }
     return [];
-  }
+  },
 );
 
 export const fetchCompanyData = createAsyncThunk(
-  "company/fetchCompanyData",
+  'company/fetchCompanyData',
   async (companySymbol) => {
     const response = await axios.get(
-      `https://financialmodelingprep.com/api/v3/profile/${companySymbol}?apikey=${apikey}`
+      `https://financialmodelingprep.com/api/v3/profile/${companySymbol}?apikey=${apikey}`,
     );
     if (response.data) {
       return response.data;
     }
     return [];
-  }
+  },
 );
 
 const initialState = {
   loading: false,
   companiesArr: [],
   company: {},
-  error: "",
+  error: '',
 };
 
 const companiesSlice = createSlice({
-  name: "companies",
+  name: 'companies',
   initialState,
   reducers: {},
   extraReducers: (builder) => {
@@ -60,8 +59,9 @@ const companiesSlice = createSlice({
     builder.addCase(fetchCompanyData.fulfilled, (state, action) => {
       const newState = state;
       newState.loading = false;
+      // eslint-disable-next-line
       newState.company = action.payload[0];
-      newState.error = "";
+      newState.error = '';
     });
   },
 });
