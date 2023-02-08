@@ -25,3 +25,12 @@ nav a {
   align-self: center;
   padding: 15px 0;
 }
+
+/* Desktop styles */
+@media screen and (min-width: 768px) {
+  .homepage {
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 30px;
+  }
+}
