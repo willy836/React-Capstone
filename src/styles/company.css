@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.company-container {
+  border: 1px solid #888;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.company {
+  margin-top: 50px;
+}
