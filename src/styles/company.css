@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
 *,
 *::before,
 *::after {
@@ -7,6 +9,7 @@
 }
 
 .company-container {
+  background: #023e8a;
   border: 1px solid #888;
   padding: 10px;
   display: flex;
@@ -14,6 +17,19 @@
   align-items: flex-end;
 }
 
+.company-container:nth-child(4n + 1),
+.company-container:nth-child(4n + 4) {
+  background: #0077b6;
+}
+
 .company {
   margin-top: 50px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.chev-right {
+  color: #fff;
 }

@@ -26,27 +26,29 @@ const Companies = () => {
   };
 
   return (
-    <div>
+    <div className="companies-homepage">
       <Header />
       {loading ? (
         <div className="loading">
-          <h2>Loading...</h2>
+          <h2 className="loading">Loading...</h2>
         </div>
       ) : (
         <div className="search-companies">
           <div className="search">
-            <h2>Search Company</h2>
-            <input
-              type="text"
-              value={search}
-              onChange={handleSearch}
-              placeholder="Search Company"
-              className="search-input"
-            />
-            <BsSearch className="search-icon" />
+            <h4 className="search-company">Search:</h4>
+            <div className="input-icon">
+              <input
+                type="text"
+                value={search}
+                onChange={handleSearch}
+                placeholder="Search Company"
+                className="search-input"
+              />
+              <BsSearch className="search-icon" />
+            </div>
           </div>
           <div className="display-companies">
-            <h1>Companies</h1>
+            <h1 className="companies-h1">Companies</h1>
             <div className="companies">
               {companiesArr
                 .filter((company) => {
