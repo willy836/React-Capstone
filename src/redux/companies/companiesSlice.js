@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import axios from 'axios';
 
 const apikey = 'b6fcb46946487d0314a7c68982f4501a';
 const URL = `https://financialmodelingprep.com/api/v3/nasdaq_constituent?apikey=${apikey}`;
@@ -7,24 +6,20 @@ const URL = `https://financialmodelingprep.com/api/v3/nasdaq_constituent?apikey=
 export const fetchCompaniesData = createAsyncThunk(
   'companies/fetchCompaniesData',
   async () => {
-    const response = await axios.get(URL);
-    if (response.data) {
-      return response.data;
-    }
-    return [];
+    const response = await fetch(URL);
+    const data = await response.json();
+    return data;
   },
 );
 
 export const fetchCompanyData = createAsyncThunk(
   'company/fetchCompanyData',
   async (companySymbol) => {
-    const response = await axios.get(
+    const response = await fetch(
       `https://financialmodelingprep.com/api/v3/profile/${companySymbol}?apikey=${apikey}`,
     );
-    if (response.data) {
-      return response.data;
-    }
-    return [];
+    const data = await response.json();
+    return data;
   },
 );
 

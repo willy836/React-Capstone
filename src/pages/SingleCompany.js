@@ -30,7 +30,6 @@ const SingleCompany = () => {
     address,
     phone,
     image,
-    description,
   } = company;
   return (
     <div className="about-company">
@@ -50,49 +49,44 @@ const SingleCompany = () => {
         </div>
         <div className="company-info">
           <p className="data">
-            Company Name:
-            {companyName}
+            <span>Name</span>
+            <span>{companyName}</span>
           </p>
           <p className="data">
-            {' '}
-            Company Symbol:
-            {symbol}
+            <span>Symbol</span>
+            <span>{symbol}</span>
           </p>
           <p className="data">
-            Sector:
-            {sector}
+            <span>Sector</span>
+            <span>{sector}</span>
           </p>
           <p className="data">
-            Industry:
-            {industry}
+            <span>Industry</span>
+            <span>{industry}</span>
           </p>
           <p className="data">
-            Country:
-            {country}
+            <span>Country</span>
+            <span>{country}</span>
           </p>
           <p className="data">
-            City:
-            {city}
+            <span>City</span>
+            <span>{city}</span>
           </p>
           <p className="data">
-            Company CEO:
-            {ceo}
+            <span>CEO</span>
+            <span>{ceo}</span>
           </p>
           <p className="data">
-            Company Phone:
-            {phone}
+            <span>Phone</span>
+            <span>{phone}</span>
           </p>
           <p className="data">
-            Company Address:
-            {address}
+            <span>Address</span>
+            <span>{address}</span>
           </p>
           <p className="data">
-            Company Website:
-            {website}
-          </p>
-          <p className="data">
-            Company Description:
-            {description}
+            <span>Website</span>
+            <span>{website}</span>
           </p>
         </div>
       </div>
