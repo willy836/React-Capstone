@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.homepage {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  align-self: center;
+  padding: 15px 0;
+}
+
+/* Desktop styles */
+@media screen and (min-width: 768px) {
+  .homepage {
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 30px;
+  }
+}
