@@ -85,7 +85,6 @@
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://react-capstone-d0aw.onrender.com)
-- [Video Demo Link](https://www.loom.com/share/1ffacaf556f740d6a44db41ff64d9079)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
