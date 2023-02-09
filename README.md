@@ -85,7 +85,7 @@
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://react-capstone-d0aw.onrender.com)
-- [Video Demo Link](https://www.loom.com/share/3c08a9c5e4a5435899e28349fde06897)
+- [Video Demo Link](https://www.loom.com/share/1ffacaf556f740d6a44db41ff64d9079)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,18 +155,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[coming soon]**
-- [ ] **[coming soon]**
-- [ ] **[coming soon]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -189,7 +177,7 @@ Give this project a ⭐️ if you like it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Original design idea by <a href="#https://www.behance.net/sakwadesignstudio">Nelson Sakwa</a> on Behance
+Original design idea by <a href="#https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)">Nelson Sakwa</a> on Behance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

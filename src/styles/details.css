@@ -51,9 +51,11 @@
 }
 
 .data {
-  padding: 10px 5px;
+  padding: 30px 5px;
   background: #0077b6;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .data:nth-child(even) {
