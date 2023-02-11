@@ -84,7 +84,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://react-capstone-d0aw.onrender.com)
+- [Live Demo Link](https://react-capstone-willy836.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +136,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-- render
+- netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,7 +176,7 @@ Give this project a ⭐️ if you like it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Original design idea by <a href="#https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)">Nelson Sakwa</a> on Behance
+Original design idea by <a href="#https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)">Nelson Sakwa</a> on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
